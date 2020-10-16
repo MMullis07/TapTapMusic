@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="patatap.css">
-    <script type="text/javascript" src="paper-full.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"></script>
-    <script type="text/paperscript" canvas="myCanvas">
-        var keyData = {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="patatap.css">
+  <script type="text/javascript" src="paper-full.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.2/howler.js"></script>
+  <script type="text/paperscript" canvas="myCanvas">
+
+    rules();
+
+    var keyData = {
 
             q: {
             sound: new Howl({
@@ -190,12 +194,14 @@
     }
 
 </script>
-</script>
+  </script>
 
-    
-    <title>Patatap</title>
+
+  <title>Patatap</title>
 </head>
+
 <body>
-        <canvas id="myCanvas" resize></canvas>
+  <canvas id="myCanvas" resize></canvas>
 </body>
+
 </html>
